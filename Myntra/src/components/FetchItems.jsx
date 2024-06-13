@@ -18,7 +18,7 @@ const FetchItems = () => {
     // Obtain a reference to the AbortSignal
     const signal = controller.signal;
     dispatch(fecthingAction.markfetchingStarted());
-    fetch("http://localhost:8080/items", { signal })
+    fetch("https://myntra-jlt5.onrender.com/items", { signal })
       .then((res) => res.json())
       .then(({ items }) => {
         console.log(items);
