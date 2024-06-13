@@ -1,0 +1,30 @@
+1-pre-built-bundle
+/1-pre-built-bundle
+1-pre-built-bundle/*
+/2-actual-backend/node_modules
+
+Myntra\node_modules
+
+# /Myntra/public/images
+
+# Logs
+/Myntra/logs
+/Myntra/*.log
+/Myntra/npm-debug.log*
+/Myntra/yarn-debug.log*
+/Myntra/yarn-error.log*
+/Myntra/pnpm-debug.log*
+/Myntra/lerna-debug.log*
+/Myntra/node_modules
+/Myntra/dist
+/Myntra/dist-ssr
+/Myntra/*.local
+/Myntra/.vscode/*
+/Myntra/!.vscode/extensions.json
+/Myntra/.idea
+/Myntra/.DS_Store
+/Myntra/*.suo
+/Myntra/*.ntvs*
+/Myntra/*.njsproj
+/Myntra/*.sln
+/Myntra/*.sw?
